@@ -1,7 +1,7 @@
 // Component for an individual expense item for the expense tracker
 import "./ExpenseItem.css";
 import ExpenseDate from "./ExpenseDate";
-import Card from "./Card";
+import Card from "../ui/Card";
 
 const ExpenseItem = props => {
   return (
