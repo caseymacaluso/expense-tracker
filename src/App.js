@@ -1,8 +1,14 @@
 import Expenses from "./components/expenses/Expenses";
+import NewExpense from "./components/newExpense/NewExpense";
 import { expenses } from "./constants";
 
 const App = () => {
-  return <Expenses items={expenses} />;
+  return (
+    <div>
+      <NewExpense />
+      <Expenses items={expenses} />
+    </div>
+  );
 };
 
 export default App;
